@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Yomogiregular";
+  src: local("Yomogi-Regular"), url("./assets/fonts/Yomogi-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LXGWWenKaiTCregular";
+  src: local("LXGWWenKaiTCregular"),
+    url("./assets/fonts/LXGWWenKaiTC-Regular.ttf");
+}
+
+/* colors */
+:root {
+  --spaceblue: #305ba4;
+  --spacepink: #e13b94;
+  --spacepurple: #8758c6;
+  --spaceorange: #f17e1c;
+  --spacewhite: #f2ead7;
+  --spacegreen: #489f95;
+}
+
+body {
+  margin: 10px;
+  background-image: url(/background.png);
+  color: var(--spacewhite);
+  font-family: "LXGWWenKaiTCregular", sans-serif;
+  font-size: small;
+  background-size: cover;
+  cursor: url("../../Space-Help-project/src/assets/icons/cursor.png"), crosshair;
+}
+
+.default-container {
+  height: auto;
+  min-height: 500px;
+}

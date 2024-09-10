@@ -1,0 +1,21 @@
+.active-navbar {
+  color: var(--spaceorange);
+}
+.copyrights {
+  font-size: 10px;
+}
+.sound {
+  font-size: 8px;
+}
+
+footer {
+  background-color: rgba(6, 6, 6, 0.5);
+}
+
+.nav-zoom {
+  transition: transform 0.2s;
+}
+
+.nav-zoom:hover {
+  transform: scale(1.2);
+}

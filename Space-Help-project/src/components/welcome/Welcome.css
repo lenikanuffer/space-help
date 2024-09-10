@@ -1,0 +1,4 @@
+.challenge-header {
+  border: 2px var(--spacepurple) solid;
+  border-radius: 15px;
+}
